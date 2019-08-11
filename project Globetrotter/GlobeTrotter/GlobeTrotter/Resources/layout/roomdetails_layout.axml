@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical"
+		android:gravity="center_horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+		<ImageView
+			android:id="@+id/roomdetails_img"
+			android:layout_width="400dp"
+			android:layout_height="wrap_content"
+			android:adjustViewBounds="true"
+			android:layout_marginTop="20dp"
+			/>
+		<TextView
+			android:id="@+id/roomdetails_name"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="22dp"
+			android:layout_marginTop="5dp"
+			android:textColor="#3CB1FA"
+			/>
+		<TextView
+			android:id="@+id/roomdetails_hotel"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="22dp"
+			android:layout_marginTop="5dp"
+			android:textColor="#3CB1FA"
+			/>
+		
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:layout_marginTop="5dp"
+			android:background="@color/colorPrimary"/>
+
+		<TextView
+			android:id="@+id/txt_rdetails"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="20dp"
+			android:layout_marginTop="5dp"
+			android:text="Room Details"
+			android:textColor="@color/colorPrimary"
+			/>
+		<TextView
+			android:id="@+id/roomdetails_details"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="16dp"
+			android:layout_marginTop="5dp"
+			/>
+
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:layout_marginTop="5dp"
+			android:background="@color/colorPrimary"/>
+		
+		<TextView
+			android:id="@+id/txt_rfacilities"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="20dp"
+			android:layout_marginTop="5dp"
+			android:text="Room Facilities"
+			android:textColor="@color/colorPrimary"
+			/>
+		<TextView
+			android:id="@+id/roomdetails_facilities"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="16dp"
+			android:layout_marginTop="5dp"
+			/>
+
+		<View
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:layout_marginTop="5dp"
+			android:background="@color/colorPrimary"/>
+		
+		<TextView
+			android:id="@+id/txt_rprice"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="20dp"
+			android:layout_marginTop="5dp"
+			android:text="Price/Night Stay"
+			android:textColor="@color/colorPrimary"
+			/>
+		<TextView
+			android:id="@+id/roomdetails_price"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="20dp"
+			android:layout_marginTop="5dp"
+			android:textColor="@color/colorPrimary"
+			/>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:gravity="center_horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="100dp">
+			<Button
+				android:layout_width="170dp"
+				android:layout_height="65dp"
+				android:layout_marginTop="20dp"
+				android:layout_marginRight="10dp"
+				android:id="@+id/btn_bookroom"
+				android:text="Book This Room"
+				android:textColor="#FFFFFF"
+				android:background="#142A4E" />
+
+		</LinearLayout>
+	
+	</LinearLayout>
+</ScrollView>
